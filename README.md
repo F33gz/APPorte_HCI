@@ -95,6 +95,5 @@ Transitioning from Low-Fi wireframes to High-Definition interfaces required crit
 The final, refined User Interfaces incorporate community best practices, utilizing the aforementioned typography and colorimetry. 
 
 **Interactive Prototype:**
-[Insert prototype link here]
+https://www.figma.com/proto/6YhWg90TUEXsVdqo0yeKLw/UX-UI?node-id=172-986&p=f&t=tzWWa902V0H5Qy3j-1&scaling=min-zoom&content-scaling=fixed&page-id=142%3A194&starting-point-node-id=172%3A986&show-proto-sidebar=1
 
-*(Note: All HD interfaces are available within the repository assets and will be presented physically during the evaluation).*
