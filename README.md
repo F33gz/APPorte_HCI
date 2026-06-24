@@ -1,5 +1,31 @@
 # APPorte - Volunteer Coordination in Climate Emergencies
 
+## Table of Contents
+
+1. [Project Identification](#1-project-identification)
+2. [The Problem](#2-the-problem)
+3. [Scope of the Solution / Proposal Description](#3-scope-of-the-solution--proposal-description)
+4. [UX Elements Layer](#4-ux-elements-layer)
+   - [4.1. Strategy](#41-strategy)
+   - [4.2. Scope](#42-scope)
+   - [4.3. Structure](#43-structure)
+   - [4.4. Skeleton](#44-skeleton)
+   - [4.5. Surface](#45-surface)
+5. [Benchmark Analysis](#5-benchmark-analysis)
+6. [UX Personas](#6-ux-personas)
+7. [Value Proposition Canvas](#7-value-proposition-canvas)
+8. [Navigability Flow](#8-navigability-flow)
+9. [Low-Fidelity Proposal](#9-low-fidelity-proposal)
+10. [Interface Evolution & Justification](#10-interface-evolution--justification)
+11. [High-Definition Interfaces & Interactive Prototype](#11-high-definition-interfaces--interactive-prototype)
+12. [Heuristic Evaluation](#12-heuristic-evaluation)
+13. [Accessibility Considerations](#13-accessibility-considerations)
+14. [Device Navigation Evidence](#14-device-navigation-evidence)
+15. [Design Critiques Received (Presentation I)](#15-design-critiques-received-presentation-i)
+
+---
+
+
 ## 1. Project Identification
 
 **Course:** User Experience Design and Human-Computer Interaction (UXD-HCI), 2026
@@ -62,7 +88,7 @@ The high-definition interfaces were designed focusing on high contrast and legib
 - **Typography:** *Inter*, selected for its exceptional clarity and readability on mobile devices.
 - **Colorimetry:** A structured palette utilizing primary action blues (`#2563eb`), neutral and clean grays for backgrounds (`#f0f2f5`, `#fefefe`) to reduce eye strain, and high-contrast red alerts specifically reserved for critical emergency markers.
 - **Language Constraint:** While this documentation is in English, all High-Definition User Interfaces are exclusively in Spanish to cater accurately to the target demographic in La Araucanía.
-- See **Section 14 (Accessibility Considerations)** for how these surface-level decisions connect to broader accessibility commitments.
+- See **Section 13 (Accessibility Considerations)** for how these surface-level decisions connect to broader accessibility commitments.
 
 ---
 
@@ -112,29 +138,13 @@ The end-to-end user journey illustrates the complete workflow from receiving an 
 
 ---
 
-## 9. Customer Journey Map
-
-*Draft v1 — built from the current Home → Map/Acopio → Squad Chat flow described in Section 8. This will be revised once the final navigation diagram above is confirmed by the team.*
-
-Mapped from the perspective of **Claudio Cáceres**, the volunteer leader persona, during an active wildfire emergency:
-
-| Stage | User Action | Touchpoint | Emotion / Pain Point | Opportunity |
-|---|---|---|---|---|
-| **Awareness** | Receives or opens an emergency alert | Foro (Home feed, sorted by proximity) | Anxious, needs to triage fast | Distance-sorted feed + color tags ('Incendio', 'Inundación', 'Acopio') remove the need to read every entry |
-| **Orientation** | Checks where help is needed relative to their location | Interactive Heat Map | Disoriented in a "complex system" (Canvas pain point) | Color-coded markers (red/blue/yellow) give instant spatial awareness |
-| **Decision** | Decides to join a nearby Collection Point or create a new one | Acopio detail / "Nuevo Acopio" | Time pressure, fear of duplicating another brigade's work | One-tap geolocation removes manual address entry |
-| **Coordination** | Communicates with the squad and tracks supplies | Squad Chat with embedded Resource Summary | Previously, this is where information got lost in WhatsApp threads | Visual supply-percentage tracking (e.g., 75% clothes, 30% water) replaces free-text updates |
-| **Resolution / Recovery** | Marks the task as resolved or pauses their availability | Profile / Account Settings | Mental fatigue, risk of burnout (Canvas pain point) | "Active Volunteer" toggle gives explicit permission to rest without losing their place in the system |
-
----
-
-## 10. Low-Fidelity Proposal
+## 9. Low-Fidelity Proposal
 
 Initial mockups were created on paper to iterate rapidly over the structural placement of elements without focusing on aesthetics. These digitized sketches served as the foundation for our usability discussions. Files can be reviewed in `Wireframe_Papel.pdf` and `wireframe_papel_2.pdf`. The corrected, fully annotated version — with a Functional Overview and Key Components & Detailed Logic for every screen — is available in [`Wireframe APPorte-PostCorrection.pdf`](./assets/Wireframe%20APPorte-PostCorrection.pdf).
 
 ---
 
-## 11. Interface Evolution & Justification
+## 10. Interface Evolution & Justification
 
 Transitioning from Low-Fi wireframes to High-Definition interfaces required critical modifications based on our UX Research:
 
@@ -147,7 +157,7 @@ Transitioning from Low-Fi wireframes to High-Definition interfaces required crit
 
 ---
 
-## 12. High-Definition Interfaces & Interactive Prototype
+## 11. High-Definition Interfaces & Interactive Prototype
 
 The final, refined User Interfaces incorporate community best practices, utilizing the aforementioned typography and colorimetry.
 
@@ -159,13 +169,18 @@ Exported HD frames are also available in [`HdFRAMEapporte.pdf`](./assets/HdFRAME
 
 ---
 
-## 13. Heuristic Evaluation
+## 12. Heuristic Evaluation
 
-As part of the course's "Taller 5: Evaluación Heurística" methodology, the team conducted a peer heuristic evaluation following the standard Severity × Frequency = Criticality framework, with problems classified against Nielsen's heuristics. The full report, including the prioritized list of critical problems and proposed solutions, is available in [`Informe Euristica.pdf`](./assets/Informe%20Euristica.pdf).
+As part of the course's "Taller 5: Evaluación Heurística" methodology, each group both evaluates another team's project and receives an evaluation of their own. Two reports are relevant here:
+
+- **Evaluation conducted by our team** (on a peer project, "InterBus"), following the standard Severity × Frequency = Criticality framework: [`Informe Euristica.pdf`](./assets/Informe%20Euristica.pdf).
+- **Evaluation received from peers, of APPorte itself** (Stephanie Mercado and Felipe Medina), covering 14 distinct usability problems mapped to Nielsen's heuristics with severity/frequency scoring: `[add final filename/link here]`.
+
+Every issue identified in the second report has been logged and cross-referenced against the in-class handwritten peer review — see "Design Critiques Received" below.
 
 ---
 
-## 14. Accessibility Considerations
+## 13. Accessibility Considerations
 
 Accessibility research for this project was grounded in the course's accessibility workshop, which analyzed real-world digital accessibility initiatives (screen-reader compatibility, multilingual labeling, manual and automated audits) in an existing large-scale platform. The full analysis is available in [`Presentación - Accesibilidad Digital en MercadoLibre.pdf`](<./assets/Presentación - Accesibilidad Digital en MercadoLibre.pdf>).
 
@@ -177,25 +192,78 @@ These principles directly inform APPorte's own accessibility commitments (see Se
 
 ---
 
-## 15. Device Navigation Evidence
+## 14. Device Navigation Evidence
 
 > 🔲 **PENDING:** Per the Presentation II rubric, this section must include a screenshot or short video showing APPorte's interfaces running on an actual mobile device (or browser, if web-based), demonstrating full navigation between screens. Waiting on the finalized Figma corrections before recording — [add screenshot/video link here].
 
 ---
 
-## 16. Summary of Changes Since Presentation I
+## 15. Design Critiques Received (Presentation I)
 
-| Feedback Received | Source | Action Taken | Status |
-|---|---|---|---|
-| Discourse was unprepared; team did not handle key terminology well | Professor | Rehearsal planned around a concrete scenario before the next presentation | 🔲 Pending |
-| Improve the "Alerta de Foco" screen | Teaching assistants | In progress in Figma | 🔲 Pending |
-| Missing address input | Teaching assistants | In progress in Figma | 🔲 Pending |
-| Fix paddings in Acopio information | Teaching assistants | In progress in Figma | 🔲 Pending |
-| Needs more explanation in Benchmark | Teaching assistants | Benchmark rewritten: 4 tools analyzed (added WhatsApp/Telegram), 8-dimension fiches per tool, synthetic comparative table, explicit Adopted/Rejected findings | ✅ Done |
-| Needs more explanation in Mockups / Low-Fi | Teaching assistants | Wireframe document rewritten with Functional Overview + Key Components & Detailed Logic per screen | ✅ Done |
-| Needs more explanation in Navigation Flow | Teaching assistants | Awaiting finalized flow from design lead before updating diagram and explanation | 🔲 Pending |
-| Detail the UX Elements explanations further | Teaching assistants | All 5 layers expanded in Section 4, each explicitly tied to Personas, Canvas, or Benchmark evidence | ✅ Done |
-| Add Heuristic Evaluation results | Course requirement (Presentation II) | Added, Section 13 | ✅ Done |
-| Add Accessibility topics | Course requirement (Presentation II) | Added, Section 14 | ✅ Done |
-| Add Customer Journey Map | Course requirement (Presentation II) | Draft added, Section 9 — pending revision once navigation flow is finalized | 🟡 Draft |
-| Show navigation running on a device | Course requirement (Presentation II) | Awaiting finalized Figma corrections | 🔲 Pending |
+This is the consolidated feedback received on APPorte's interfaces during the Presentation I cross-review, combining handwritten in-class annotations from the peer review session and the formal heuristic evaluation conducted by classmates Stephanie Mercado and Felipe Medina.
+
+### Foro / Home
+
+- Color palette is too flat/plain; lacks a clear visual identity.
+- The "Distancia" sort control doesn't read as tappable.
+- Navbar is missing shortcuts to frequent destinations (e.g. Chats, Mis Acopios).
+- Header says 3 acopios while "Mis Acopios" shows 2 active; the quick view should show active items, with totals in the detail view.
+- Spelling: missing accents (e.g. "Pucón"), several "-ción" words missing tildes.
+
+### Acopio Detail (Vista General de un Acopio)
+
+- Category chips (Agua, Alimentos, Ropa, Medicam.) look static; unclear how they get populated when an alert is created, since the creation form doesn't ask for them.
+- Unclear whether custom attributes support multiple values.
+- Quantities shown here (e.g. "Agua x50") have no matching input field in the creation form.
+- Urgency shown as "Urgente" doesn't map clearly to the creation form's Normal / Alto / Crítico options.
+- "Total 8/10" doesn't reconcile with the per-category numbers shown elsewhere (12/15, 2/5, 12/15).
+
+### Mapa
+
+- No marker shows the user's own current location.
+- Unclear what happens if a referenced location (e.g. Villarrica) isn't covered by the map.
+
+### Nueva Alerta
+
+- Relationship between "Nueva Alerta" and the Foro / map point concept is unclear.
+- Screen feels visually empty; layout needs better information distribution.
+
+### Alerta de Foco (Evacuar Zona 2)
+
+- Large empty space between sender info and "Confirmar Recibido."
+- That space could hold a small map of the affected zone instead of being empty.
+- "¿Qué es zona 2?" / "¿Qué carretera?" — zone and street references aren't specific enough to act on.
+- Heavy use of red feels visually invasive, even though it's appropriate for urgency.
+- Suggestion: add a fire/hazard icon for faster visual recognition.
+- Wording: consider "Confirmar Recibo" instead of "Confirmar Recibido."
+
+### Nuevo Acopio (Step 1 & 2)
+
+- No input field for "Dirección" — the label exists but there's nothing to type into.
+- Button color logic unclear ("why transparent black?").
+- No date fields for "Temporal" points.
+- Unclear who is allowed to create a new Acopio.
+- Categories should be a dropdown/standard list, not free text typed by the user.
+- Missing a per-category quantity field — the form only captures the category tag, not "how much."
+- Phone number field only accepts the literal "+569" prefix, which is too rigid.
+- A volunteer can currently create an Acopio and become its responsible contact, even though the role definitions say only Coordinators manage zones.
+
+### Squad Chat (Grupo Brigada)
+
+- Unclear who requested/sent the "Resumen de Recursos" card.
+- Real volunteer brigades coordinate by radio, not by chat — the underlying assumption behind this feature was questioned directly.
+
+### Login
+
+- Background image works well.
+- Background image feels decontextualized from the emergency-response theme.
+
+### Registro Coordinador
+
+- Unclear whether example field content (e.g. "Camila Rojas") is placeholder text or accidentally pre-filled data.
+- Consent text is usually presented as plain text, not wrapped inside a checkbox component this way.
+
+### Account / Profile
+
+- No way to log out from Profile or Settings.
+- Resources can only be added — there's no way to edit, decrease, or delete them once created.
