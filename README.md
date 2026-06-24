@@ -128,8 +128,6 @@ The development of APPorte is grounded in a thorough Value Proposition Canvas an
 
 The end-to-end user journey illustrates the complete workflow from receiving an emergency alert to task completion. The structural flow navigates from the main Home (Foro) through Mapa Libre, Vista General de un Acopio, and Perfil, with two deferred gates — authentication (for Chat) and coordinator registration (for Mis Acopios) — that are only enforced at the moment of action and always return to Home afterward. Two screens, Nueva Alerta and Alerta de Foco, sit outside the main tab flow: Nueva Alerta is created from Mapa Libre, and Alerta de Foco is reached via push notification. Mis Acopios additionally branches into Nuevo Acopio, Mobilization Resources, and Human Resources. The updated diagram, validated against the full team's answers on authentication timing, screen entry points, and return paths, is available in [`diagrama_navegacion_v2.png`](./assets/diagrama_navegacion_v2.png).
 
-> 🔲 **PENDING:** File not yet uploaded to the repository — path is defined above, ready as soon as it's pushed.
-
 ---
 
 ## 9. Low-Fidelity Proposal
