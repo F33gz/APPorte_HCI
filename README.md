@@ -174,7 +174,7 @@ Exported HD frames are also available in [`HdFRAMEapporte.pdf`](./assets/HdFRAME
 As part of the course's "Taller 5: Evaluación Heurística" methodology, each group both evaluates another team's project and receives an evaluation of their own. Two reports are relevant here:
 
 - **Evaluation conducted by our team** (on a peer project, "InterBus"), following the standard Severity × Frequency = Criticality framework: [`Informe Euristica.pdf`](./assets/Informe%20Euristica.pdf).
-- **Evaluation received from peers, of APPorte itself** (Stephanie Mercado and Felipe Medina), covering 14 distinct usability problems mapped to Nielsen's heuristics with severity/frequency scoring: `[add final filename/link here]`.
+- **Evaluation received from peers, of APPorte itself** (Stephanie Mercado and Felipe Medina), covering 14 distinct usability problems mapped to Nielsen's heuristics with severity/frequency scoring: [assets/EVeuristicaRecibida.pdf].
 
 Every issue identified in the second report has been logged and cross-referenced against the in-class handwritten peer review — see "Design Critiques Received" below.
 
