@@ -105,11 +105,6 @@ A two-phase competitive benchmark was conducted to analyze current coordination 
 
 The full written analysis — including the 8 base dimensions, 4 domain-specific dimensions, the synthetic comparative table with the "APPorte (Proposal)" row, and the explicit Adopted/Rejected design decisions — is available in [`APPorte_Benchmark_ENGLISH-POSTcORRECTIONS.pdf`](./assets/APPorte_Benchmark_ENGLISH-POSTcORRECTIONS.pdf).
 
-A complementary Increase/Reduce/Include/Remove decision matrix focused specifically on WhatsApp/Telegram is available in [`APPorte_Benchmark.png`](./assets/APPorte_Benchmark.png).
-
-> 🔲 **PENDING:** Annotated screenshots (minimum 3 per tool, with title + visual annotation + 2-line justification each) — [add folder/link here].
-> 🔲 **PENDING:** Feature Map (Standard / Differentiating / Opportunity classification, built collaboratively in FigJam) — [add FigJam export/link here].
-
 ---
 
 ## 6. UX Personas
