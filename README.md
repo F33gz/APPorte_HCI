@@ -153,11 +153,9 @@ Transitioning from Low-Fi wireframes to High-Definition interfaces required crit
 
 The final, refined User Interfaces incorporate community best practices, utilizing the aforementioned typography and colorimetry.
 
-**Interactive Prototype:** <https://www.figma.com/proto/6YhWg90TUEXsVdqo0yeKLw/UX-UI?node-id=172-986&p=f&t=tzWWa902V0H5Qy3j-1&scaling=min-zoom&content-scaling=fixed&page-id=142%3A194&starting-point-node-id=172%3A986&show-proto-sidebar=1>
+**Interactive Prototype:** <https://www.figma.com/proto/6YhWg90TUEXsVdqo0yeKLw/UX-UI?node-id=243-646&t=yn7furYx7kcyHaJE-1&scaling=min-zoom&content-scaling=fixed&page-id=142%3A194&starting-point-node-id=243%3A646&show-proto-sidebar=1>
 
 Exported HD frames are also available in [`HdFRAMEapporte.pdf`](./assets/HdFRAMEapporte.pdf), for evaluators who prefer a static reference alongside the navigable prototype.
-
-> 🔲 **PENDING:** Confirm this link reflects the corrections currently being made (Alerta de Foco screen, address input, Acopio info paddings) before final submission.
 
 ---
 
@@ -186,7 +184,7 @@ These principles directly inform APPorte's own accessibility commitments (see Se
 
 ## 14. Device Navigation Evidence
 
-> 🔲 **PENDING:** Per the Presentation II rubric, this section must include a screenshot or short video showing APPorte's interfaces running on an actual mobile device (or browser, if web-based), demonstrating full navigation between screens. Waiting on the finalized Figma corrections before recording — [add screenshot/video link here].
+A full screen-recording of APPorte's navigation, demonstrated on an actual device, is available in this shared folder: <https://drive.google.com/drive/folders/1xtSianuTyz0ktzPm6N5gqEfJXMPPssHj?usp=sharing>
 
 ---
 
