@@ -25,7 +25,6 @@
 
 ---
 
-
 ## 1. Project Identification
 
 **Course:** User Experience Design and Human-Computer Interaction (UXD-HCI), 2026
@@ -75,7 +74,7 @@ Each functionality below is traceable to a specific persona need or a specific b
 
 The information architecture is designed for linear, fast-response navigation. The user flow is structured around a central Home (Foro) that branches intuitively into localized modules: the Interactive Map, the Account Management dashboard, and the Collection Points (Acopios). Complex decision trees were flattened to ensure that users reach critical data (e.g., needed resources, navigation routes) in three taps or fewer — a target adopted directly from Chile Alerta's bottom-tab structure in our benchmark (Section 5), the only one of the four tools analyzed that reached critical information in a single tap.
 
-> 🔲 **PENDING:** This section's diagram (Section 8) is being revised based on Presentation I feedback — the navigation logic itself needs a clearer, more explicit explanation, not just an updated picture. This text will be expanded once the design lead finalizes the revised flow.
+Authentication and role checks (coordinator status) are deliberately deferred rather than gating access upfront: any user can browse the Foro, Mapa, and Acopio details without an account. Login/Registro is only requested at the moment a restricted action is attempted (opening Chat, or managing Acopios), and always returns the user to Home afterward rather than resuming the original action automatically. This keeps the read-only experience frictionless for displaced residents (Carlos) while still protecting coordination actions.
 
 ### 4.4. Skeleton
 
@@ -127,9 +126,9 @@ The development of APPorte is grounded in a thorough Value Proposition Canvas an
 
 ## 8. Navigability Flow
 
-The end-to-end user journey illustrates the complete workflow from receiving an emergency alert to task completion. The structural flow navigates from the main Home (Foro) through conditional interactions (e.g., authentication and coordinator checks) into specialized dashboards, map views, and administrative tools for Collection Points. The updated diagram is available in [`diagrama_navegacion_v2.png`](./assets/diagrama_navegacion_v2.png).
+The end-to-end user journey illustrates the complete workflow from receiving an emergency alert to task completion. The structural flow navigates from the main Home (Foro) through Mapa Libre, Vista General de un Acopio, and Perfil, with two deferred gates — authentication (for Chat) and coordinator registration (for Mis Acopios) — that are only enforced at the moment of action and always return to Home afterward. Two screens, Nueva Alerta and Alerta de Foco, sit outside the main tab flow: Nueva Alerta is created from Mapa Libre, and Alerta de Foco is reached via push notification. Mis Acopios additionally branches into Nuevo Acopio, Mobilization Resources, and Human Resources. The updated diagram, validated against the full team's answers on authentication timing, screen entry points, and return paths, is available in [`diagrama_navegacion_v2.png`](./assets/diagrama_navegacion_v2.png).
 
-> 🔲 **PENDING:** File not yet uploaded to the repository — path is defined above, ready as soon as it's pushed. Diagram is still a draft pending validation with the full team (see open questions being worked through with the design lead).
+> 🔲 **PENDING:** File not yet uploaded to the repository — path is defined above, ready as soon as it's pushed.
 
 ---
 
@@ -169,7 +168,7 @@ Exported HD frames are also available in [`HdFRAMEapporte.pdf`](./assets/HdFRAME
 As part of the course's "Taller 5: Evaluación Heurística" methodology, each group both evaluates another team's project and receives an evaluation of their own. Two reports are relevant here:
 
 - **Evaluation conducted by our team** (on a peer project, "InterBus"), following the standard Severity × Frequency = Criticality framework: [`Informe Euristica.pdf`](./assets/Informe%20Euristica.pdf).
-- **Evaluation received from peers, of APPorte itself** (Stephanie Mercado and Felipe Medina), covering 14 distinct usability problems mapped to Nielsen's heuristics with severity/frequency scoring: [`EvEuristicaRecibida.pdf`](./assets/EVeuristicaRecibida.pdf).
+- **Evaluation received from peers, of APPorte itself** (Stephanie Mercado and Felipe Medina), covering 14 distinct usability problems mapped to Nielsen's heuristics with severity/frequency scoring: [`EVeuristicaRecibida.pdf`](./assets/EVeuristicaRecibida.pdf).
 
 Every issue identified in the second report has been logged and cross-referenced against the in-class handwritten peer review — see "Design Critiques Received" below.
 
