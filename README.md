@@ -132,9 +132,9 @@ The development of APPorte is grounded in a thorough Value Proposition Canvas an
 
 ## 8. Navigability Flow
 
-The end-to-end user journey illustrates the complete workflow from receiving an emergency alert to task completion. The structural flow navigates from the main Home (Foro) through conditional interactions (e.g., authentication checks) into specialized dashboards, map views, and administrative tools for Collection Points. The current diagram is available in `diagrama_inicial.png`.
+The end-to-end user journey illustrates the complete workflow from receiving an emergency alert to task completion. The structural flow navigates from the main Home (Foro) through conditional interactions (e.g., authentication and coordinator checks) into specialized dashboards, map views, and administrative tools for Collection Points. The updated diagram is available in [`diagrama_navegacion_v2.png`](./assets/diagrama_navegacion_v2.png).
 
-> 🔲 **PENDING:** This diagram and its written explanation are being revised by the design lead based on Presentation I feedback ("the process/flow logic was not understood"). The updated version must explain *why* the flow is structured this way, not only show it — [replace link once finalized].
+> 🔲 **PENDING:** File not yet uploaded to the repository — path is defined above, ready as soon as it's pushed. Diagram is still a draft pending validation with the full team (see open questions being worked through with the design lead).
 
 ---
 
@@ -174,7 +174,7 @@ Exported HD frames are also available in [`HdFRAMEapporte.pdf`](./assets/HdFRAME
 As part of the course's "Taller 5: Evaluación Heurística" methodology, each group both evaluates another team's project and receives an evaluation of their own. Two reports are relevant here:
 
 - **Evaluation conducted by our team** (on a peer project, "InterBus"), following the standard Severity × Frequency = Criticality framework: [`Informe Euristica.pdf`](./assets/Informe%20Euristica.pdf).
-- **Evaluation received from peers, of APPorte itself** (Stephanie Mercado and Felipe Medina), covering 14 distinct usability problems mapped to Nielsen's heuristics with severity/frequency scoring: [`Ev Euristica Recibed`](./assets/EVeuristicaRecibida.pdf).
+- **Evaluation received from peers, of APPorte itself** (Stephanie Mercado and Felipe Medina), covering 14 distinct usability problems mapped to Nielsen's heuristics with severity/frequency scoring: `[add final filename/link here]`.
 
 Every issue identified in the second report has been logged and cross-referenced against the in-class handwritten peer review — see "Design Critiques Received" below.
 
